@@ -29,20 +29,22 @@
                 Poppins: 'Poppins',
               },
               backgroundImage: {
-                leaf1: "url('./images/leaf01.png')",
+                bannerBg: "url('./images/leaf01.png')",
                 call_to_action: "url('./images/call.jpg')",
-                testimonials: "url('./images/testimonials.jpg')",
+              
+                
+                
               },              
             }
           }
         }
       </script>
 </head>
-<body>
+<body class="font-Poppins">
     <!--Header Start-->  
-    <header class="w-11/12 mx-auto">
-        <nav>
-            <div class="navbar p-0 py-5">
+    <header class="">
+        <nav class="w-11/12 mx-auto">
+            <div class="navbar p-0 py-3">
                 <div class="navbar-start">                  
                   <a  href="#"><img class="w-36" src="images/logo.svg" alt=""></a>
                 </div>
@@ -82,12 +84,275 @@
                 </div>
               </div>
         </nav>
+        <!--Banner Section-->
+        <section class=" bg-bannerBg bg-no-repeat bg-right-bottom">
+          <div class="w-full h-full bg-body bg-opacity-90">
+            <div class="lg:w-9/12 mx-auto flex sm:flex-row flex-col items-center">
+              <div class="flex-1">
+                <img src="images/bannerbg.png" alt="">
+              </div>
+              <div class="flex-1 sm:text-left text-center">
+                <h4 class="text-xl font-semibold my-5">Best Quality Prouducts</h4>
+                <h1 class="lg:text-6xl text:4xl font-semibold leading-tight">Join The Organic Movement</h1>
+                <p class="my-5 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusantium at totam, dolore natus est repellat consequatur! Nostrum, exercitationem cumque!</p>
+                <div class="flex sm:justify-start justify-center">
+                  <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Shop Now</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </header> 
     <!--Main Start--> 
-    <main></main>
+    <main>
+      <!--Best Selling Start-->
+      <section class="bg-body py-10">
+        <div class="w-11/12 mx-auto">
+          <div class="flex flex-col justify-center items-center gap-2 my-10">
+            <img class="w-20" src="images/leaf01.png" alt="">
+            <h2 class="text-4xl font-semibold">Best Selling Products</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-10">
+            <div class="card bg-base-100 w-full shadow rounded-md">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/product01.jpg"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+                <h2 class="card-title">Absorted Coffe</h2>
+                  <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$40.99</p>
+                <div class="flex sm:justify-start justify-center">
+                  <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+                    <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+                  </button>
+              </div>
+            </div>
+          </div>  
+          <div class="card bg-base-100 w-full shadow rounded-md">
+            <figure class="px-10 pt-10">
+              <img
+                src="images/product02.jpg"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+              <h2 class="card-title">Absorted Coffe</h2>
+                <p class="text-yellow-400">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </p>
+              <p class="text-lg font-semibold">$40.99</p>
+              <div class="flex sm:justify-start justify-center">
+                <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+                  <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+                </button>
+            </div>
+          </div>
+        </div> 
+        <div class="card bg-base-100 w-full shadow rounded-md">
+          <figure class="px-10 pt-10">
+            <img
+              src="images/product03.jpg"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+            <h2 class="card-title">Absorted Coffe</h2>
+              <p class="text-yellow-400">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+            <p class="text-lg font-semibold">$40.99</p>
+            <div class="flex sm:justify-start justify-center">
+              <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+                <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+              </button>
+          </div>
+        </div>
+      </div>       
+      <div class="card bg-base-100 w-full shadow rounded-md">
+        <figure class="px-10 pt-10">
+          <img
+            src="images/product04.jpg"
+            alt="Shoes"
+            class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+          <h2 class="card-title">Absorted Coffe</h2>
+            <p class="text-yellow-400">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <p class="text-lg font-semibold">$40.99</p>
+          <div class="flex sm:justify-start justify-center">
+            <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+              <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+            </button>
+        </div>
+      </div>
+    </div>       
+    <div class="card bg-base-100 w-full shadow rounded-md">
+      <figure class="px-10 pt-10">
+        <img
+          src="images/product05.jpg"
+          alt="Shoes"
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+        <h2 class="card-title">Absorted Coffe</h2>
+          <p class="text-yellow-400">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </p>
+        <p class="text-lg font-semibold">$40.99</p>
+        <div class="flex sm:justify-start justify-center">
+          <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+            <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+          </button>
+      </div>
+    </div>
+  </div>       
+  <div class="card bg-base-100 w-full shadow rounded-md">
+    <figure class="px-10 pt-10">
+      <img
+        src="images/product06.jpg"
+        alt="Shoes"
+        class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+      <h2 class="card-title">Absorted Coffe</h2>
+        <p class="text-yellow-400">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </p>
+      <p class="text-lg font-semibold">$40.99</p>
+      <div class="flex sm:justify-start justify-center">
+        <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+          <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+        </button>
+    </div>
+  </div>
+</div>       
+<div class="card bg-base-100 w-full shadow rounded-md">
+  <figure class="px-10 pt-10">
+    <img
+      src="images/product07.jpg"
+      alt="Shoes"
+      class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+    <h2 class="card-title">Absorted Coffe</h2>
+      <p class="text-yellow-400">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </p>
+    <p class="text-lg font-semibold">$40.99</p>
+    <div class="flex sm:justify-start justify-center">
+      <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+        <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+      </button>
+  </div>
+</div>
+</div>       
+<div class="card bg-base-100 w-full shadow rounded-md">
+  <figure class="px-10 pt-10">
+    <img
+      src="images/product08.jpg"
+      alt="Shoes"
+      class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h4 class="capitalize text-body_neutral text-slate-400">Groceries</h4>
+    <h2 class="card-title">Absorted Coffe</h2>
+      <p class="text-yellow-400">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </p>
+    <p class="text-lg font-semibold">$40.99</p>
+    <div class="flex sm:justify-start justify-center">
+      <button class="flex items-center gap-2 rounded-md hover:bg-primary bg-accent text-white px-10 py-4">
+        <span>Shop Now</span><i class="fa-solid fa-cart-shopping"></i>                    
+      </button>
+      </div>
+   </div>
+   </div>       
+  </div>
+  </section>
+</main>
     <!--Footer Start--> 
-    <footer></footer>
-    
+    <footer class="bg-secondary text-white py-20">
+      <div class="footer w-11/12 mx-auto">
+        <aside>
+         <img src="images/logo-white.png" alt="">
+          <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </div>
+      
+    </footer>
     
 </body>
 </html>
